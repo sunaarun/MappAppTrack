@@ -7,6 +7,7 @@
     tools:context="com.example.rasharun.mappapptrack.MainActivity">
 
     <Button
+        android:id="@+id/bttn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -15,5 +16,14 @@
         android:onClick="showMyLocation"
         android:text="click me to show ur location" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suna Arun"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textColor="#0ddd0f"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/bttn"/>
 
 </RelativeLayout>
